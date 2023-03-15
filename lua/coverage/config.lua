@@ -112,7 +112,10 @@ local defaults = {
         php = {
           coverage_file = "coverage/cobertura.xml",
           path_mappings = {},
-        }
+        },
+        elixir = {
+          coverage_file = "cover/lcov.info",
+        },
     },
 }
 
